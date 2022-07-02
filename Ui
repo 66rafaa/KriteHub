@@ -1,3 +1,6 @@
+print("ON")
+wait(.5)
+
 local Krite = {}
 
 local tween = game:GetService("TweenService")
