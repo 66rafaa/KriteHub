@@ -115,9 +115,9 @@ local themeStyles = {
     },
     Heaven = {
         SchemeColor = Color3.fromRGB(0, 183, 235),
-        Background = Color3.fromRGB(255,255,255),
+        Background = Color3.fromRGB(0 , 0 , 0),
         Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(0 , 0 , 0),
+        TextColor = Color3.fromRGB(255 , 255 , 255),
         ElementColor = Color3.fromRGB(22, 29, 31)
 	
 	
