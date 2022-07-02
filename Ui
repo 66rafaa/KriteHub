@@ -1,5 +1,3 @@
-
-print("On...")
 wait(.5)
 
 local Krite = {}
