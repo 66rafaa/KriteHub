@@ -118,7 +118,7 @@ local themeStyles = {
         Background = Color3.fromRGB(0 , 235 , 235),
         Header = Color3.fromRGB(0, 183, 235),
         TextColor = Color3.fromRGB(0 , 0 , 0),
-        ElementColor = Color3.fromRGB(0, 0, 0)
+        ElementColor = Color3.fromRGB(255, 255, 255)
 	
 	
 	}
@@ -269,7 +269,7 @@ function Krite.CreateLib(kavName, themeList)
     title.Font = Enum.Font.Gotham
     title.RichText = true
     title.Text = kavName
-    title.TextColor3 = Color3.fromRGB(245, 245, 245)
+    title.TextColor3 = Color3.fromRGB(0, 0, 0)
     title.TextSize = 16.000
     title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -623,7 +623,7 @@ function Krite.CreateLib(kavName, themeList)
 
                 Sample.Name = "Sample"
                 Sample.Parent = buttonElement
-                Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Sample.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- TEST
                 Sample.BackgroundTransparency = 1.000
                 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
                 Sample.ImageColor3 = themeList.SchemeColor
