@@ -126,7 +126,6 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
-}
 local oldTheme = ""
 
 local SettingsT = {
