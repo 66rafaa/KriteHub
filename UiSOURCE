@@ -623,7 +623,7 @@ function Krite.CreateLib(kavName, themeList)
 
                 Sample.Name = "Sample"
                 Sample.Parent = buttonElement
-                Sample.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- TEST
+                Sample.BackgroundColor3 = Color3.fromRGB(255,255, 255) -- TEST
                 Sample.BackgroundTransparency = 1.000
                 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
                 Sample.ImageColor3 = themeList.SchemeColor
