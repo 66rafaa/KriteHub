@@ -98,7 +98,7 @@ local Toggle3 = section1:CreateToggle("Mags", nil, function(value)
             if k.Name == "Football" and k.ClassName == "Part" and tog == true then
             for i = 1,35 do wait()
                 if tog == true then
-                    k.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.LeftHand.Position)
+                    k.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.Torso.Position)
                     k.CanCollide = false
                         end
                     end
